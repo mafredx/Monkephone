@@ -1,0 +1,3 @@
+﻿  include_juce_audio_plugin_client_VST3.cpp
+     Creating library D:\Users\Mike\Documents\GitHub\Monkephone\monkephone\Builds\VisualStudio2017\x64\Debug\VST3\monkephone.lib and object D:\Users\Mike\Documents\GitHub\Monkephone\monkephone\Builds\VisualStudio2017\x64\Debug\VST3\monkephone.exp
+  monkephone_VST3.vcxproj -> D:\Users\Mike\Documents\GitHub\Monkephone\monkephone\Builds\VisualStudio2017\x64\Debug\VST3\monkephone.vst3

@@ -1,0 +1,2 @@
+﻿  include_juce_audio_plugin_client_Standalone.cpp
+  monkephone_StandalonePlugin.vcxproj -> D:\Users\Mike\Documents\GitHub\Monkephone\monkephone\Builds\VisualStudio2017\x64\Debug\Standalone Plugin\monkephone.exe

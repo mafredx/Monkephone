@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 15
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monkephone - Standalone Plugin", "monkephone_StandalonePlugin.vcxproj", "{A1A97913-944C-3BAE-00C1-AAAE674BCFA8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D40997F-9AAC-0520-3446-29D8DE34D9AA} = {4D40997F-9AAC-0520-3446-29D8DE34D9AA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monkephone - VST3", "monkephone_VST3.vcxproj", "{0847F500-A56B-D536-1E5D-3ED735E7963D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D40997F-9AAC-0520-3446-29D8DE34D9AA} = {4D40997F-9AAC-0520-3446-29D8DE34D9AA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monkephone - Shared Code", "monkephone_SharedCode.vcxproj", "{4D40997F-9AAC-0520-3446-29D8DE34D9AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0847F500-A56B-D536-1E5D-3ED735E7963D}.Debug|x64.ActiveCfg = Debug|x64
+		{0847F500-A56B-D536-1E5D-3ED735E7963D}.Debug|x64.Build.0 = Debug|x64
+		{0847F500-A56B-D536-1E5D-3ED735E7963D}.Release|x64.ActiveCfg = Release|x64
+		{0847F500-A56B-D536-1E5D-3ED735E7963D}.Release|x64.Build.0 = Release|x64
+		{A1A97913-944C-3BAE-00C1-AAAE674BCFA8}.Debug|x64.ActiveCfg = Debug|x64
+		{A1A97913-944C-3BAE-00C1-AAAE674BCFA8}.Debug|x64.Build.0 = Debug|x64
+		{A1A97913-944C-3BAE-00C1-AAAE674BCFA8}.Release|x64.ActiveCfg = Release|x64
+		{A1A97913-944C-3BAE-00C1-AAAE674BCFA8}.Release|x64.Build.0 = Release|x64
+		{4D40997F-9AAC-0520-3446-29D8DE34D9AA}.Debug|x64.ActiveCfg = Debug|x64
+		{4D40997F-9AAC-0520-3446-29D8DE34D9AA}.Debug|x64.Build.0 = Debug|x64
+		{4D40997F-9AAC-0520-3446-29D8DE34D9AA}.Release|x64.ActiveCfg = Release|x64
+		{4D40997F-9AAC-0520-3446-29D8DE34D9AA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
